@@ -11,6 +11,8 @@ import { registerUser } from '../../redux/userRelated/userHandle';
 import styled from 'styled-components';
 import Popup from '../../components/Popup';
 
+export const API_BASE_URL = process.env.REACT_APP_BASE_URL || 'http://localhost:5000';
+
 const defaultTheme = createTheme();
 
 const AdminRegisterPage = () => {
